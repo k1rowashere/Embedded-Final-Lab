@@ -23,7 +23,7 @@ int main() {
   TIMSK = (1 << OCIE1A);                   // Enable Timer1 compare interrupt
   sei();                                   // Enable global interrupts
 
-  while (true)
+  while (1)
     ;
 }
 

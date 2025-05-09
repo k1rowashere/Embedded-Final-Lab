@@ -20,7 +20,7 @@ int main() {
   sei();
 
   uint16_t counter = 0;
-  while (true) {
+  while (1) {
     if (counter % 2 == 0) // T = 4 seconds
       PORTB ^= (1 << PB0);
     if (counter % 5 == 0)

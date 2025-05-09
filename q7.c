@@ -17,7 +17,7 @@ int main() {
   GICR = (1 << INT1);
   sei();
 
-  while (true) {
+  while (1) {
     if ((PINA & (1 << PA0)) == 0) // switch  pressed (active low)
       PORTB &= ~(1 << PB7);       // buzzer off
   }

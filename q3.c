@@ -23,6 +23,6 @@ int main() {
   ADMUX = 0;                // ADC0
   sei();
 
-  while (true)
+  while (1)
     ;
 }

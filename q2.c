@@ -12,6 +12,6 @@ int main() {
   ICR1 = 110;
   OCR1A = 8;
 
-  while (true)
+  while (1)
     ;
 }

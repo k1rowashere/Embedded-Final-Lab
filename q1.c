@@ -23,7 +23,7 @@ int main() {
   serial_init(115200);
   sei();
 
-  while (true) {
+  while (1) {
     char buff[30] = {};
 
     sprintf(buff, "period = %fs\n\r", ticks / ticks_per_second);
